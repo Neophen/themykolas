@@ -1,5 +1,11 @@
 module.exports = {
   purge: false,
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+    defaultLineHeights: true,
+    standardFontWeights: true,
+  },
   theme: {
     fontFamily: {
       'display': ["Bebas Neue", 'cursive'],
